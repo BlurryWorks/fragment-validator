@@ -3,8 +3,6 @@ package org.musteat.fragment.validator;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import org.musteat.fragment.validator.ValidationResult;
-import org.musteat.fragment.validator.ValidationResults;
 import org.musteat.fragment.validator.engine.ResultStatus;
 
 class ValidationResultsTest
