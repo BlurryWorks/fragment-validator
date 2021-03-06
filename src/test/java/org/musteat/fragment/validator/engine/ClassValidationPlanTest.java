@@ -8,8 +8,6 @@ import java.util.Set;
 import org.junit.jupiter.api.Test;
 import org.musteat.fragment.validator.ValidationResult;
 import org.musteat.fragment.validator.ValidationResults;
-import org.musteat.fragment.validator.engine.ClassValidationPlan;
-import org.musteat.fragment.validator.engine.ResultStatus;
 import org.musteat.fragment.validator.rule.CustomValidation;
 import org.musteat.fragment.validator.rule.MaxLongValue;
 import org.musteat.fragment.validator.rule.MinimumLongValue;

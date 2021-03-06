@@ -4,8 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.musteat.fragment.validator.ValidationProcessor;
-import org.musteat.fragment.validator.ValidationResults;
 import org.musteat.fragment.validator.engine.ResultStatus;
 import org.musteat.fragment.validator.rule.Required;
 
