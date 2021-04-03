@@ -24,6 +24,7 @@ hs_err_pid*
 
 # Temp Build Folders
 bin/
+target/
 
 # Build System
 .gradle/
