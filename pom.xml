@@ -5,6 +5,21 @@
     <artifactId>fragment-validator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2</url>
+          </repository>
+          <repository>
+            <id>github_smarkwell</id>
+            <url>https://maven.pkg.github.com/smarkwell/*</url>
+            <snapshots>
+              <enabled>true</enabled>
+            </snapshots>
+          </repository>
+    </repositories>
+
     <build>
         <pluginManagement>
             <plugins>
@@ -20,7 +35,7 @@
                     <configuration>
                         <parallel>all</parallel>
                     </configuration>
-                  </plugin>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
@@ -58,4 +73,13 @@
         </dependency>
 
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github_smarkwell</id>
+            <name>GitHub smarkwell Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/smarkwell/fragment-validator</url>
+        </repository>
+
+    </distributionManagement>
 </project>
