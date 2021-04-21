@@ -11,6 +11,9 @@ import org.musteat.fragment.validator.engine.ThrowableFunction;
 import org.musteat.fragment.validator.engine.ValidationRule;
 import org.musteat.fragment.validator.rule.MinimumLength;
 
+/**
+ * See {@link MinimumLength} for usage notes.
+ */
 public class MinimumLengthLogic extends ValidationRule
 {
 	
@@ -32,10 +35,9 @@ public class MinimumLengthLogic extends ValidationRule
 		{ 
 			validationMethod = this::validateCollection;			
 		}
-		else if(String.class.isAssignableFrom(fieldToValidate.getType()))
+		else if(CharSequence.class.isAssignableFrom(fieldToValidate.getType()))
 		{
-			validationMethod = this::validateString;
-			
+			validationMethod = this::validateCharSequence;			
 		}
 		else
 		{
@@ -67,10 +69,10 @@ public class MinimumLengthLogic extends ValidationRule
 		return null;
 	}	
 	
-	public ValidationResult validateString(Object obj) throws Exception
+	public ValidationResult validateCharSequence(Object obj) throws Exception
 	{
-		String stringObject = (String) obj;		
-		if(stringObject.length() < minimumLengthAnnotation.value())
+		CharSequence charSequenceObject = (CharSequence) obj;		
+		if(charSequenceObject.length() < minimumLengthAnnotation.value())
 			return new ValidationResult(ResultStatus.Failure);
 		return null;
 	}

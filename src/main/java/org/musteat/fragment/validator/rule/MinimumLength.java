@@ -22,8 +22,11 @@ import org.musteat.fragment.validator.rule.logic.ValidationClassMapping;
  * <ul>
  * 	<li>Array primitive</li>
  *  <li>{@link Collection}</li>
- * 	<li>{@link String}</li>
+ * 	<li>{@link CharSequence}</li>
  * </ul>
+ * 
+ * Importantly, "length" of String/CharSequences is based on Java's concept of a character.  This means individual characters and not their combined glyph representation.
+ * 🐱‍👤 for example is treated as more than one character.
  * 
  * 
  * @see MaxLength

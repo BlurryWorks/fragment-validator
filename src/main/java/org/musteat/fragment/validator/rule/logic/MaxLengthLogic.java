@@ -32,9 +32,9 @@ public class MaxLengthLogic extends ValidationRule
 		{
 			validationMethod = this::validateCollection;			
 		}
-		else if(String.class.isAssignableFrom(fieldToValidate.getType()))
+		else if(CharSequence.class.isAssignableFrom(fieldToValidate.getType()))
 		{
-			validationMethod = this::validateString;
+			validationMethod = this::validateCharSequence;
 		}
 		else
 		{
@@ -58,10 +58,10 @@ public class MaxLengthLogic extends ValidationRule
 		return null;
 	}	
 	
-	public ValidationResult validateString(Object obj) throws Exception
+	public ValidationResult validateCharSequence(Object obj) throws Exception
 	{
-		String stringObject = (String) obj;		
-		if(stringObject.length() > maxLengthAnnotation.value())
+		CharSequence charSequenceObject = (CharSequence) obj;		
+		if(charSequenceObject.length() > maxLengthAnnotation.value())
 			return new ValidationResult(ResultStatus.Failure);
 		return null;
 	}
