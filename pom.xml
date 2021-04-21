@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.musteat.fragment</groupId>
+    <groupId>com.blurryworks.fragment</groupId>
     <artifactId>fragment-validator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -12,8 +12,8 @@
             <url>https://repo1.maven.org/maven2</url>
           </repository>
           <repository>
-            <id>github_smarkwell</id>
-            <url>https://maven.pkg.github.com/smarkwell/*</url>
+            <id>github_blurryworks</id>
+            <url>https://maven.pkg.github.com/BlurryWorks/*</url>
             <snapshots>
               <enabled>true</enabled>
             </snapshots>
@@ -76,9 +76,9 @@
 
     <distributionManagement>
         <repository>
-            <id>github_smarkwell</id>
-            <name>GitHub smarkwell Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/smarkwell/fragment-validator</url>
+            <id>github_blurryworks</id>
+            <name>GitHub BlurryWorks Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/BlurryWorks/fragment-validator</url>
         </repository>
 
     </distributionManagement>
