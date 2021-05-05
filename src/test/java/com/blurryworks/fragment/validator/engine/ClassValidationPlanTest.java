@@ -9,8 +9,6 @@ import org.junit.jupiter.api.Test;
 
 import com.blurryworks.fragment.validator.ValidationResult;
 import com.blurryworks.fragment.validator.ValidationResults;
-import com.blurryworks.fragment.validator.engine.ClassValidationPlan;
-import com.blurryworks.fragment.validator.engine.ResultStatus;
 import com.blurryworks.fragment.validator.rule.CustomValidation;
 import com.blurryworks.fragment.validator.rule.MaxLongValue;
 import com.blurryworks.fragment.validator.rule.MinimumLongValue;
