@@ -20,6 +20,14 @@
           </repository>
     </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>github_blurryworks</id>
+            <name>GitHub BlurryWorks Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/BlurryWorks/fragment</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <pluginManagement>
             <plugins>
@@ -74,12 +82,5 @@
 
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>github_blurryworks</id>
-            <name>GitHub BlurryWorks Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/BlurryWorks/fragment-validator</url>
-        </repository>
 
-    </distributionManagement>
 </project>
