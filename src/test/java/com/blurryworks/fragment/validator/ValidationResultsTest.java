@@ -4,8 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import com.blurryworks.fragment.validator.ValidationResult;
-import com.blurryworks.fragment.validator.ValidationResults;
 import com.blurryworks.fragment.validator.engine.ResultStatus;
 
 class ValidationResultsTest
