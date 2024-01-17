@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.blurryworks.fragment</groupId>
-    <artifactId>fragment-validator</artifactId>
+    <artifactId>validator</artifactId>
     <version>0.0.20</version>
 
 
