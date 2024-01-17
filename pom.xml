@@ -15,11 +15,11 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id> 
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/BlurryWorks/fragment-validator</url>
+          <id>github</id>
+          <name>GitHub Packages</name>
+          <url>https://maven.pkg.github.com/blurryworks/fragment-validator</url>
         </repository>
-    </distributionManagement>
+      </distributionManagement>
 
     <build>
         <pluginManagement>
