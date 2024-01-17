@@ -3,7 +3,7 @@
 
     <groupId>com.blurryworks.fragment</groupId>
     <artifactId>fragment-validator</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.20</version>
 
 
     <repositories>
