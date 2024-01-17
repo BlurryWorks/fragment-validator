@@ -3,7 +3,7 @@
 
     <groupId>com.blurryworks.fragment</groupId>
     <artifactId>fragment-validator</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
 
     <repositories>
@@ -11,20 +11,13 @@
             <id>central</id>
             <url>https://repo1.maven.org/maven2</url>
           </repository>
-          <repository>
-            <id>github_blurryworks</id>
-            <url>https://maven.pkg.github.com/BlurryWorks/*</url>
-            <snapshots>
-              <enabled>true</enabled>
-            </snapshots>
-          </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
-            <id>github_blurryworks</id>
-            <name>GitHub BlurryWorks Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/BlurryWorks/packages</url>
+            <id>github</id> 
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/BlurryWorks/fragment-validator</url>
         </repository>
     </distributionManagement>
 
